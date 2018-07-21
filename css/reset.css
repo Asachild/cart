@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,header,h1,span,input,label,section,b,p{margin: 0;padding: 0;border: 0;vertical-align:baseline;}
+ol,ul{list-style:none;margin: 0;padding: 0;}
+a{ text-decoration:none; color:#000;display: block;}

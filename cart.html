@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/cart.css">
+	</head>
+	<body>
+		<div id="main">
+			<!-- 头部标签 -->
+			<header id="header">
+				<h1>购物车</h1>
+				<span>编辑</span>
+			</header>
+			<!-- 底部菜单 -->
+			<nav id="nav">
+				<a href="#" class="nav_item">
+					<div class="nav_icon_box"><div class="nav_icon_inner icon_home"></div></div>
+					<div class="nav_hint">主页</div>
+				</a>
+				<a href="#" class="nav_item">
+					<div class="nav_icon_box"><div class="nav_icon_inner icon_cate"></div></div>
+					<div class="nav_hint">分类</div>
+				</a>
+				<a href="#" class="nav_item">
+					<div class="nav_icon_box"><div class="nav_icon_inner icon_cart"></div></div>
+					<div class="nav_hint cur">购物车</div>
+				</a>
+				<a href="#" class="nav_item">
+					<div class="nav_icon_box"><div class="nav_icon_inner icon_mine"></div></div>
+					<div class="nav_hint">我的</div>
+				</a>
+			</nav>
+			<!-- 结算模块 -->
+			<section id="balance">
+				<!-- 全选 -->
+				<div class="balance_selectAll">
+					<input id="selectAll" class="selectAll_icon_input" type="checkbox" name="selectAll" value="全选">
+					<label for="selectAll" class="selectAll_icon_label" >全选</label>
+				</div>
+				<!-- 合计 -->
+				<div class="balance_total">合计:&nbsp;<b>￥0</b></div>
+				<!-- 运费 -->
+				<div class="balance_freight">不含运费</div>
+				<!-- btn结算 -->
+				<input class="balance_btn" type="submit" value="去结算" />
+			</section>
+			<!-- 商品列表 -->
+			<div id="container">
+				<ul class="productList">
+					<li class="product">
+						<div class="product_checkbox">
+							<input class="product_checkbox_input" type="checkbox" name="" value="product">
+						</div>
+						<div class="product_img"><img src="images/goods_01.png"></div>
+						<div class="product_msg">
+							<div class="msg_top">
+								<p class="pro_name">2013年多米纳斯副牌干葡萄酒</p>
+								<p class="pro_title">Napa&nbsp;Nood</p>
+							</div>
+							<div class="msg_bottom">
+								<div class="msg_bottom_l">
+									<b>￥</b><b class="proTotal">988.00</b>
+								</div>
+								<div class="msg_bottom_r">
+									<div class="count">
+										<span class="sub">-</span>
+										<span class="sum">1</span>
+										<span class="add cur">+</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="product">
+						<div class="product_checkbox">
+							<input class="product_checkbox_input" type="checkbox" name="" value="product">
+						</div>
+						<div class="product_img"><img src="images/goods_02.png"></div>
+						<div class="product_msg">
+							<div class="msg_top">
+								<p class="pro_name">2008年木桐酒庄干红葡萄酒</p>
+								<p class="pro_title">Mouton&nbsp;Rothschild</p>
+							</div>
+							<div class="msg_bottom">
+								<div class="msg_bottom_l">
+									<b>￥</b><b class="proTotal">10999.00</b>
+								</div>
+								<div class="msg_bottom_r">
+									<div class="count">
+										<span class="sub">-</span>
+										<span class="sum">1</span>
+										<span class="add cur">+</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="product">
+						<div class="product_checkbox">
+							<input class="product_checkbox_input" type="checkbox" name="" value="product">
+						</div>
+						<div class="product_img"><img src="images/goods_01.png"></div>
+						<div class="product_msg">
+							<div class="msg_top">
+								<p class="pro_name">2013年多米纳斯副牌干葡萄酒</p>
+								<p class="pro_title">Napa&nbsp;Nood</p>
+							</div>
+							<div class="msg_bottom">
+								<div class="msg_bottom_l">
+									<b>￥</b><b class="proTotal">988.00</b>
+								</div>
+								<div class="msg_bottom_r">
+									<div class="count">
+										<span class="sub">-</span>
+										<span class="sum">1</span>
+										<span class="add cur">+</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="product">
+						<div class="product_checkbox">
+							<input class="product_checkbox_input" type="checkbox" name="" value="product">
+						</div>
+						<div class="product_img"><img src="images/goods_02.png"></div>
+						<div class="product_msg">
+							<div class="msg_top">
+								<p class="pro_name">2008年木桐酒庄干红葡萄酒</p>
+								<p class="pro_title">Mouton&nbsp;Rothschild</p>
+							</div>
+							<div class="msg_bottom">
+								<div class="msg_bottom_l">
+									<b>￥</b><b class="proTotal">10999.00</b>
+								</div>
+								<div class="msg_bottom_r">
+									<div class="count">
+										<span class="sub">-</span>
+										<span class="sum">1</span>
+										<span class="add cur">+</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="product">
+						<div class="product_checkbox">
+							<input class="product_checkbox_input" type="checkbox" name="" value="product">
+						</div>
+						<div class="product_img"><img src="images/goods_01.png"></div>
+						<div class="product_msg">
+							<div class="msg_top">
+								<p class="pro_name">2013年多米纳斯副牌干葡萄酒</p>
+								<p class="pro_title">Napa&nbsp;Nood</p>
+							</div>
+							<div class="msg_bottom">
+								<div class="msg_bottom_l">
+									<b>￥</b><b class="proTotal">988.00</b>
+								</div>
+								<div class="msg_bottom_r">
+									<div class="count">
+										<span class="sub">-</span>
+										<span class="sum">1</span>
+										<span class="add cur">+</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="product">
+						<div class="product_checkbox">
+							<input class="product_checkbox_input" type="checkbox" name="" value="product">
+						</div>
+						<div class="product_img"><img src="images/goods_02.png"></div>
+						<div class="product_msg">
+							<div class="msg_top">
+								<p class="pro_name">2008年木桐酒庄干红葡萄酒</p>
+								<p class="pro_title">Mouton&nbsp;Rothschild</p>
+							</div>
+							<div class="msg_bottom">
+								<div class="msg_bottom_l">
+									<b>￥</b><b class="proTotal">10999.00</b>
+								</div>
+								<div class="msg_bottom_r">
+									<div class="count">
+										<span class="sub">-</span>
+										<span class="sum">1</span>
+										<span class="add cur">+</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script>
+		window.onload=function(){
+			(function(){  
+				change();  
+				function change(){
+					document.documentElement.style.fontSize = document.documentElement.clientWidth*20/320 + 'px';  
+				}
+				// 监听窗口大小发生改变时 
+				window.addEventListener('resize',change,false);
+			})();
+			// 产品数量价格变化
+			var subObj = document.getElementsByClassName("sub");
+			var addObj = document.getElementsByClassName("add");
+			var sumObj = document.getElementsByClassName("sum");
+			var proTotalObj = document.getElementsByClassName("proTotal");
+
+			for(var i=0;i<addObj.length;i++){
+		        // 加法
+		        addObj[i].index = i;
+		        addObj[i].onclick = function(){
+		        	var sum = sumObj[this.index].innerHTML;
+		        	var proTotal = proTotalObj[this.index].innerHTML;
+		            sumObj[this.index].innerHTML=parseInt(sum)+1;
+		            proTotalObj[this.index].innerHTML = proTotal/parseInt(sum)*(parseInt(sum)+1);
+		        }
+		        // 减法
+		        subObj[i].index = i;
+		        subObj[i].onclick = function(){
+		        	if(sumObj[this.index].innerHTML != "1"){
+		        		var sum = sumObj[this.index].innerHTML;
+		        		var proTotal = proTotalObj[this.index].innerHTML;
+		        		sumObj[this.index].innerHTML=parseInt(sum)-1;
+		        		proTotalObj[this.index].innerHTML = proTotal/parseInt(sum)*(parseInt(sum)-1);
+		        	}else{return false;}
+		            
+		        }
+		    }
+		}
+	</script>
+</html>
