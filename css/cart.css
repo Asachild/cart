@@ -158,7 +158,7 @@ html{
 	font-weight: bold;
 }
 /*-------container商品列表----------*/
-#container{padding-top: 2rem;padding-bottom: 5rem;}
+#container{padding-top: 2rem;padding-bottom: 5rem;background-color: #fff;}
 #container,.productList{
 	width: 100%;
 	height: auto;
