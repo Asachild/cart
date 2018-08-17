@@ -1,0 +1,76 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  color: #7e8c8d;
+  text-decoration: none;
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -ms-backface-visibility:hidden; 
+  font-family: "PingFangSC-Regular";
+}
+li {
+  list-style: none;
+}
+html, body {
+  width: 100%;
+}
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  font-family: "PingFangSC-Regular";
+ }
+ input{font-family: "PingFangSC-Regular";}
+/*布局的时候，各元素的css尺寸=设计稿标注尺寸/设计稿横向分辨率/10*/
+/*font-size可能需要额外的媒介查询，并且font-size不使用rem*/
+[data-dpr="1"] body { font-size: 16px; } 
+[data-dpr="2"] body { font-size: 32px; } 
+[data-dpr="2.625"] body { font-size: 42px; } 
+[data-dpr="3"] body { font-size: 48px; }
+[data-dpr="3.5"] body { font-size: 56px; }
+@font-face {
+  font-family: "PingFangSC-Regular";
+  src: url("../font/PingFangR.eot");
+  src: url("../font/PingFangR.eot?#iefix") format("embedded-opentype"),
+  url("../font/PingFangR.woff") format("woff"),
+  url("../font/PingFangR.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
